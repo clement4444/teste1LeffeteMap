@@ -7,4 +7,33 @@
 #map {
     height: 100vh;
     width: 100%;
+    position: relative;
+}
+
+.conaireBnt {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.bntFiltre {
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* effect transparent du fond */
+    backdrop-filter: blur(1px);
+
+    &:hover {
+        border-color: green;
+    }
+}
+
+.action {
+    background-color: rgba(0, 0, 0, 0.4);
 }

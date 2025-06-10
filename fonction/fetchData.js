@@ -1,5 +1,6 @@
 import env from "../env/env.js";
 
+//fonction pour fetch 100 par 100
 async function fetch100(data, nb) {
     // fait la requet
     const reponse = await fetch(`${env.apiUrl}?limit=100&offset=${nb}`);
@@ -16,6 +17,7 @@ async function fetch100(data, nb) {
     return data;
 }
 
+//function pour récupérer toute les données
 export async function fetchData(isSaved = false) {
     //si save on verifie si on a déjà les données
     if (isSaved && localStorage.getItem("dataEco")) {
@@ -40,20 +42,4 @@ export async function fetchData(isSaved = false) {
     }
 
     return data;
-}
-
-export function defIcon(nom) {
-    if (nom === "Métiers du gros œuvre") {
-        return "marker_jaunne.svg";
-    }
-    else if (nom === "Métiers d'art") {
-        return "marker_bleu.svg";
-    }
-    else if (nom === "Métiers de l'accompagnement du chantier") {
-        return "marker_orange.svg";
-    }
-    else if (nom === "Métiers de la conduite de travaux") {
-        return "marker_maron.svg";
-    }
-    return "marker_rose.svg";
 }
