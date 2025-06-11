@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chartJS</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <a href="/" class="fermer">❌</a>
+        <div class="conenaireAllGraph">
+            <div class="cardGraph">
+                <p>Nombre de catégorie de métier</p>
+                <canvas id="nbCategorie"></canvas>
+            </div>
+            <div class="cardGraph">
+                <p>Nombre entreprise qui ouvre leur porte</p>
+                <canvas id="nbPortOuvert"></canvas>
+            </div>
+            <div class="cardGraph">
+                <p>Nombre de secteur d'activité</p>
+                <canvas id="nbSecteur"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

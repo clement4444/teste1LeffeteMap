@@ -1,8 +1,8 @@
 const allCategories = [
-    "Métiers du gros œuvre",
-    "Métiers d'art",
-    "Métiers de l'accompagnement du chantier",
     "Métiers de la conduite de travaux",
+    "Métiers du gros œuvre",
+    "Métiers de l'accompagnement du chantier",
+    "Métiers d'art",
     "Autres métiers"
 ];
 
