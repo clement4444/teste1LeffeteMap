@@ -1,4 +1,4 @@
-import env from "../env/env.js";
+import env from "/env/env.js";
 
 //fonction pour fetch 100 par 100
 async function fetch100(data, nb) {

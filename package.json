@@ -1,0 +1,14 @@
+{
+  "name": "mapbox",
+  "version": "1.0.0",
+  "description": "- Leaflet -> teste sur une cart leaflet\r - chartJS -> teste dur chartJS\r - chartJSTypeTs -> juste pour avoir un ficher ts pour trouver des argument de paramètre na pas de code fonctionnel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
